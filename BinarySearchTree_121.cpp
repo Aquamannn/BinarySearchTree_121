@@ -8,5 +8,7 @@ public:
 	Node* leftchild;
 	Node* rightchild;
 
+
+
 	
 };
