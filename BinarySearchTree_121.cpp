@@ -140,6 +140,12 @@ int main()
 				obj.insert(word);
 				break;
 		}
+		case '2':
+		{
+			obj.inorder(obj.ROOT);
+			break;
+		}
 		
+
 	}
 }
