@@ -150,7 +150,19 @@ int main()
 			obj.preorder(obj.ROOT);
 			break;
 		}
-		c
+		case '4':
+		{
+			obj.postorder(obj.ROOT);
+			break;
+		}
+		case '5':
+			return 0;
+		default:
+		{
+			cout << "invalid option" << endl;
+			break;
+		}
+		}
 
 	}
 }
